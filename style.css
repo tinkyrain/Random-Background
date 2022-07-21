@@ -4,6 +4,7 @@
 
 body{
   background: black;
+  transition: all 1.5s ease-in;
 }
 
 main{
@@ -51,7 +52,7 @@ main{
 
 /*ADAPTIVE*/
 
-@media (max-width: 410px) {
+@media (max-width: 550px) {
   #btn{
     width: 180px;
     height: 70px;
@@ -65,9 +66,15 @@ main{
 
 }
 
-@media (max-width: 330px) {
+@media (max-width: 470px) {
   .color{
     font-size: 60px;
   }
 
+}
+
+@media (max-width: 360px) {
+  .color{
+    font-size: 40px;
+  }
 }
